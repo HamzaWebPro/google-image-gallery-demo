@@ -124,7 +124,7 @@ const App = () => {
                 </div>
               ))}
         </div>
-        <div className="mt-10 flex justify-center ">
+        <div className="mt-10 flex justify-center mb-10">
           <input
             type="file"
             accept="image/*"
@@ -148,6 +148,10 @@ const App = () => {
             </button>
           )}
         </div>
+        <small className="text-[#9d9d9d]">
+
+        Task by Hamza Altamas
+        </small>
       </div>
     </div>
   );
